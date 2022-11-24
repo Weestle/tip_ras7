@@ -33,7 +33,7 @@ print('%-10s %-7s %-7s %-7s %-7s %-7s %-7s %-7s %-7s %-7s %-7s' % ('М.Э.', x[0
 
 #Трапеци
 x = [0]
-y = [2]
+y = [L]
 t = 0
 for i in range(int(abs(b - a) / h)):
     t += 1
@@ -45,7 +45,7 @@ print('%-10s %-7s %-7s %-7s %-7s %-7s %-7s %-7s %-7s %-7s %-7s' % ('М.трап.
 
 # Рунге-Кутта
 x = [0]
-y = [2]
+y = [L]
 t = 0
 for i in range(int(abs(b - a) / h)):
     k = [f(x[t], y[t])]
